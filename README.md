@@ -1,3 +1,3 @@
-# Deno KV ~~ Marmot 
+# Deno KV ~~ Marmot
 
 TODO: write readme
