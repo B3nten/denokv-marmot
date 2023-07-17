@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Message Board</title>
+	<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+
+<body>
+	<h1>Guestbook</h1>
+	<form method="POST" action="/submit">
+		<label for="name">Name</label>
+		<input type="text" name="name" placeholder="Name">
+		<label for="message">Message</label>
+		<input type="text" name="message" placeholder="Message">
+		<input type="submit" value="Submit">
+	</form>
+	<h2>Messages</h2>
+	<ul>
+		{{ posts }}
+	</ul>
+</body>
+
+</html>
