@@ -1,7 +1,9 @@
 {
   "tasks": {
-    "run:1": "deno run --allow-net --allow-read --allow-write --unstable --watch ./2/main.ts",
-    "run:2": "deno run --allow-net --allow-read --allow-write --unstable --watch ./1/main.ts"
+    "run:1": "deno run --allow-net --allow-read --allow-write --unstable --watch ./1/main.ts",
+    "run:2": "deno run --allow-net --allow-read --allow-write --unstable --watch ./2/main.ts",
+    "run:3": "deno run --allow-net --allow-read --allow-write --unstable --watch ./3/main.ts",
+    "run:4": "deno run --allow-net --allow-read --allow-write --unstable --watch ./4/main.ts"
   },
   "lock": false
 }
